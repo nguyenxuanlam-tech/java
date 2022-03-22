@@ -1,0 +1,15 @@
+package LT_Buoi6;
+
+public class Bai1 {
+
+	public static void main(String[] args) {
+		/*
+		 * Bài 1:
+		 * 		cho người dùng nhập vào một số nguyên bất kỳ.
+		 * 			chương trình cần phải xem xét xem số đó có phải là số nguyên tố không 
+		 * 			=> xuất ra thông báo kết quả
+		 * 			, hỏi có muốn tiếp tục kiểm tra hay tiêos hay không? [1,0]
+		 * */
+	}
+
+}

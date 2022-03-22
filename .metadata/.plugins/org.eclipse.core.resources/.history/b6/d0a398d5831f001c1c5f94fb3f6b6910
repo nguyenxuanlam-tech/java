@@ -1,0 +1,43 @@
+package Thi;
+
+import LT_Buoi6.ThuVien;
+
+public class Bai1 {
+
+	public static void main(String[] args) {
+		int chon = 0;
+		do {
+			System.out.println("Cau 1.");
+			System.out.println("---a. Kiem tra 1 so nguyen duong co phai la so nguyen to hay khong? ')   -----");
+			System.out.println("---b. Xac dinh uoc so chung lon nhat cua 2 so nguyen duong                                   -----");
+			System.out.println("---c.                                               -----");
+			System.out.println("---4. Ket qua [Dau : Rot]                                    -----");
+			System.out.println("---5. Thoat Chuong Trinh                                     -----");
+			
+			chon = ThuVien.inputInt("Ban hay chon chuc nang");
+			switch(chon) {
+				case 1:{
+					do {
+						cs = ThuVien.inputFloat("Diem mon Co So.");
+						cn = ThuVien.inputFloat("Diem mon Chuyen Nghanh.");
+						nn = ThuVien.inputFloat("Diem mon Ngoai Ngu.");
+						if(ThuVien.KiemTra(cs, cn, nn)) {
+							System.out.println("Diem nhap vao khong hop le!");
+						}
+					}while(ThuVien.KiemTra(cs, cn, nn));
+					break;
+				}
+				case 2:{
+					break;
+				}
+				case 3:
+					ThuVien.XepLoai(dtb);
+					break;
+				case 4:
+					ThuVien.KetQua(dtb);
+					break;
+			} 
+		}while(chon != 5 );
+	}
+
+}

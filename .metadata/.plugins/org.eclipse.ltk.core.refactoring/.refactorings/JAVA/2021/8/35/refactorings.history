@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;LT_BUOI4.vd02&apos; to &apos;bai1&apos;&#x0D;&#x0A;- Original project: &apos;JAVA&apos;&#x0D;&#x0A;- Original element: &apos;LT_BUOI4.vd02&apos;&#x0D;&#x0A;- Renamed element: &apos;LT_BUOI4.bai1&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;vd02&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;LT_BUOI4{vd02.java[vd02" matchStrategy="1" name="bai1" qualified="false" references="true" similarDeclarations="false" stamp="1629945274938" textual="false" version="1.0"/>
+</session>
